@@ -12,4 +12,5 @@ public class Main extends JFrame implements ActionListener {
 	private JLabel lab;
 	private JTextField text;
 	private JTextField text2;
+	private JTextField text3;
 }
