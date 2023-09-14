@@ -33,8 +33,8 @@ public class Main extends JFrame implements KeyListener {
 		setSize(wide, hei); //画面サイズ
 		setLocationRelativeTo(null); //画面の表示位置nullは中央
 		setResizable(false); //画面サイズ変更ture:可,false:不可
-		img = Toolkit.getDefaultToolkit().getImage("src/img/wood.png");
-		buffer = createImage(d.width,d.height);
+		img = Toolkit.getDefaultToolkit().getImage("src/image/wood.png");
+		//buffer = createImage(d.width,d.height);
 		
 		/*
 		try (InputStream inputStream = getClass().getResourceAsStream("img/dog.png");) {
@@ -61,7 +61,7 @@ public class Main extends JFrame implements KeyListener {
 		} catch(InterruptedException e) {
 			
 		}
-		g.drawImage(buffer,0,0,this);
+		//g.drawImage(buffer,0,0,this);
 	}
 	
 	public void keyPressed(KeyEvent e){ //キーが押されたとき
